@@ -9,13 +9,14 @@ int main(){
 
     for(int i=0;i<MATRIZSIZE;i++){
         for(int j=0;j<MATRIZSIZE;j++){
-            
+            matriz[i][j]=3;
+
             if(i==j){
             matriz[i][j]=1;
             }else if(i+j==MATRIZSIZE-1){
             matriz[i][j]=2;
-            }else 
-            matriz[i][j]=3;
+            } 
+            
         }   
     }
 
